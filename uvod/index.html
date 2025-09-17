@@ -37,5 +37,83 @@
 
     <h1>Pokročilé obrázky</h1>
 
+<h2>Neusporadany seznam</h2>
+    <ul>
+        <li>jabko</li>
+        <li>hruska</li>
+        <li>banan</li>
+    </ul>
+    <hr>
+
+    <h2>Usporadany seznam</h2>
+    <ol>
+        <li>jabko</li>
+        <li>hruska</li>
+        <li>banan</li>
+    </ol>
+    <hr>
+        <h2>Tabulka</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Jmeno</th>
+                <th>Vek</th>
+                <th>Bydliste</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marek</td>
+                    <td>15</td>
+                    <td>Brno</td>
+                </tr>
+
+                <tr>
+                    <td>Martin</td>
+                    <td>16</td>
+                    <td>Praha</td>
+                </tr>
+
+                <tr>
+                    <td>Petr</td>
+                    <td>16</td>
+                    <td>Ostrava</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <h2>Formular</h2>
+        <form action="#">
+            <label for="jmeno">Jmeno</label>
+            <input type="text" id="jmeno" name="jmeno"><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+            <hr>
+            
+            <h4>Pohlavi</h4>
+
+            <label for="muz">Muz</label>
+            <input type="radio" id="muz" name="pohlavi"><br>
+
+            <label for="zena">Zena</label>
+            <input type="radio" id="zena" name="pohlavi"><br>
+            <hr>
+
+            <label for="zeme">Zeme</label><br>
+            <select id="zeme" name="zeme"> 
+                <option value="cz">Cesko</option>
+                <option value="sk">Slovensko</option>
+                <option value="pl">Polsko</option>
+            </select><br>
+            
+            
+            <label for="zprava">Zprava</label><br>
+            <textarea name="zprava" id="zprava" placeholder="Vlozte text" rows="5" cols="50"></textarea><br>
+            
+            <input type="submit">
+
+        </form>
 </body>
 </html>
