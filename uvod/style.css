@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(120, 138, 197);
+    background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
     justify-content: center;
@@ -9,11 +9,24 @@ body {
 }
 
 .ovoce{
-    color: rgb(247, 37, 37);
-    border: 5px solid rgb(202, 55, 202);
+    color: rgb(103, 235, 42);
+    border: 2px solid rgb(202, 55, 202);
 }
 
 a {
     color:red;
 }
+
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+    width: auto;
+    
+}
+
+th, td {
+    padding: 10px;
+}
+
+
 
