@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+
+header {
+    background:  url(https://img.freepik.com/premium-photo/group-diverse-business-people-working-together-having-meeting_695793-1294.jpg?w=2000);
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-block: 30px;
+    border-bottom: 1px solid white;
+    justify-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li:hover{
+    border-bottom: 1px solid blue;
+}
+
+.uvod{
+    margin-top: 40vh;
+    text-align: center;
+    width: 50%;
+    margin-inline: auto;
+}
+
+.uvod p{
+    line-height: 2rem;
+    margin-block: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 15px 40px;
+    font-weight: bold;
+}
